@@ -4,5 +4,11 @@
 
 void main()
 {
+    int i;
+    delayMs(1000);
+}
 
+void delayMs(int n)
+{
+    for(i=0;i<n;i++);
 }
